@@ -1,3 +1,40 @@
 @import url(./reset.css);
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@300;700&display=swap');
 @import url(../icons/style.css);
+
+.container {
+  max-width: 1200px;
+  background-image: url(/images/banner_background.jpg);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  width: 75%;
+}
+nav {
+  background-color: black;
+  display: flex;
+  height: 70px;
+  padding-right: 150px;
+  padding-left: 150px;
+}
+nav a {
+  margin-right: auto;
+}
+nav a.homelogo {
+  margin-left: 50px;
+}
+nav ul {
+  display: flex;
+}
+nav ul li {
+  margin-left: 45px;
+  align-items: center;
+}
+footer {
+  max-width: 1200px;
+  width: 75%;
+  height: 100px;
+  margin: auto;
+  padding-right: 150px;
+  padding-left: 150px;
+}
