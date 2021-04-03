@@ -13,24 +13,22 @@ nav {
   background-color: black;
   display: flex;
   height: 70px;
-  padding: 20px;
+  padding: 20px 0px;
   align-items: center;
 }
-nav .homelogo {
-  margin-left: 150px;
+nav .logo {
   display: block;
-}
-nav a {
+  margin-left: 146px;
   margin-right: auto;
 }
 nav ul {
   display: flex;
+}
+nav ul li * {
   margin-right: 46px;
 }
 nav ul li a {
   color: white;
-  margin-right: 150px;
-  align-items: center;
   font-family: 'Open Sans', sans-serif;
   text-decoration: none;
   font-size: 14px;
@@ -41,12 +39,11 @@ footer .container {
   max-width: 1200px;
   height: 100vh;
   width: 75%;
-  margin: 0 auto;
   display: flex;
   margin-top: 30px;
 }
 footer .text {
-  margin-left: 150px;
+  margin-left: 146px;
   display: block;
   margin-right: auto;
 }
@@ -68,4 +65,44 @@ footer .logos ul {
 footer .logos ul li a {
   font-size: 44px;
   color: #cccccc;
+}
+header {
+  padding-top: 100px;
+}
+header section {
+  width: 517px;
+  margin-right: auto;
+  margin-left: 146px;
+  padding-top: 35px;
+}
+header img {
+  display: block;
+  margin-left: 146px;
+}
+header section h1 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 44px;
+  color: white;
+  margin-bottom: 42px;
+  text-transform: uppercase;
+}
+header p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  line-height: 23px;
+  font-weight: 300;
+  margin-top: 42px;
+  color: #76777a;
+  margin-bottom: 66px;
+}
+header a {
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 600;
+  color: white;
+  padding: 13px 30px;
+  border: 2px solid #fff;
 }
