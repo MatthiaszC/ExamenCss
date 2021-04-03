@@ -2,39 +2,70 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@300;700&display=swap');
 @import '../icons/style.css';
 
-.container {
-  max-width: 1200px;
-  background-image: url(/images/banner_background.jpg);
+header {
+  background-image: url(../images/banner_background.jpg);
   height: 100vh;
-  background-position: center;
+  background-position: top center;
   background-size: cover;
-  width: 75%;
+  min-height: 100vh;
 }
 nav {
   background-color: black;
   display: flex;
   height: 70px;
-  padding-right: 150px;
-  padding-left: 150px;
+  padding: 20px;
+  align-items: center;
+}
+nav .homelogo {
+  margin-left: 150px;
+  display: block;
 }
 nav a {
   margin-right: auto;
 }
-nav a.homelogo {
-  margin-left: 50px;
-}
 nav ul {
   display: flex;
+  margin-right: 46px;
 }
-nav ul li {
-  margin-left: 45px;
+nav ul li a {
+  color: white;
+  margin-right: 150px;
   align-items: center;
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
 }
-footer {
+
+footer .container {
   max-width: 1200px;
+  height: 100vh;
   width: 75%;
-  height: 100px;
-  margin: auto;
-  padding-right: 150px;
-  padding-left: 150px;
+  margin: 0 auto;
+  display: flex;
+  margin-top: 30px;
+}
+footer .text {
+  margin-left: 150px;
+  display: block;
+  margin-right: auto;
+}
+footer .text h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: black;
+}
+footer .text p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #a4a5a8;
+}
+footer .logos ul {
+  display: flex;
+}
+footer .logos ul li a {
+  font-size: 44px;
+  color: #cccccc;
 }
